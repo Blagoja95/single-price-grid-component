@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    /* ## Colors
+
+    ### Primary */
+    
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    
+    /* ### Neutral */
+    
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+/* GENERAL ELEMENTS */
+.subtitle{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--Light-Gray);
+}
+
+.component--column{
+    padding: 4rem;
+    background-color: var(--Cyan);
+}
+.btn{
+    width: 21rem;
+    height: 5rem;
+    border-radius: 9px;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* ******************* */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Karla', sans-serif;
+    font-size: 400;
+    line-height: 1;
+    font-size: 1.6rem;
+    background-color: var(--Light-Gray);
+}
+
+.component{
+    display: grid;
+    grid-template-columns: repeat(2, 31.7rem);
+    grid-template-rows: 21.7rem 25.8rem;
+}
+
+
+.component--first-row{
+    grid-column: 1/-1;
+    padding: 4.5rem 4rem;
+    background-color: white;
+    border-radius: 9px 9px 0 0;
+}
+
+.main-title{
+    color: var(--Cyan);
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+.first-row-subtitle{
+    color: var(--Bright-Yellow) !important;
+    font-weight: 700;
+}
+
+.first-row--paragraph{
+    color: var(--Grayish-Blue);
+} 
+
+.monthly-price-title{
+    font-weight: 700;
+}
+
+.price--value{
+    font-weight: 700;
+    color: var(--Light-Gray);
+    font-size: 3rem;
+}
+
+.price--time{
+    color: lightblue;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.left--paragraph{
+    color: var(--Light-Gray);
+    margin: 1rem 0 3rem 0;
+}
+
+.btn--sign-up{
+    background-color: var(--Bright-Yellow);
+    color: var(--Light-Gray); 
+}
+
+.btn--sign-up:hover{
+    background-color: var(--Light-Gray);
+    color: var(--Bright-Yellow);
+}
+
+.why-us--text{
+    line-height: 1.5;
+    color: var(--Light-Gray);
+    opacity: .7;
+}
+
+.right{
+    opacity: 0.8;
+    border-bottom-right-radius: 9px;
+}
+
+.left{
+    border-bottom-left-radius: 9px;
+}

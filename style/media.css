@@ -1,0 +1,40 @@
+@media screen and (max-width: 650px) {
+    .component{
+        grid-template-columns: 31.7rem;
+        grid-template-rows: 27rem repeat(2, 22.7rem);
+    }
+
+    .left{
+        border-bottom-left-radius: 0px;
+    }
+    
+    .right{
+        border-bottom-left-radius: 9px;
+    }
+    .component--column{
+        padding: 3rem 2rem 2rem 2rem;
+    }
+
+    .btn--sign-up{
+        width: 25rem;
+    }
+    .why-us--text{
+        line-height: 1.2;
+    width: 67%;
+    }
+
+    .main-title{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .first-row-subtitle{
+        font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+
+    }
+
+    .first-row--paragraph{
+        line-height: 2;
+    font-size: 1.3rem;    }
+}
