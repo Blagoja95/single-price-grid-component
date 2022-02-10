@@ -9,4 +9,4 @@ Built with
     CSS custom properties
     Flexbox
     CSS Grid
-    BEM
+    BEM (At least I tried)
